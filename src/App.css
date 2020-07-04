@@ -1,52 +1,118 @@
-.App{
+@import url('https://fonts.googleapis.com/css?family=Oswald:500&display=swap');
+
+
+body{
+  background-color: black;
+  height: 100%;
+  width : 100%;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+Main{
+  height: 100%;
+}
+
+#section1{
+  background-color:black;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
-  height:100%
+  height :100vh;
 
 }
-
-h1{
-  color: white;
-}
-
-#wrapper_techno{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.techno{
-  height: 8vh;
-  width : 8vh;
-  margin: 1vh;
-  padding: 10px;
-  background-color: red;
-  font-size: 75%;
-}
-
 #wrapper_projets{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  height: 60%;
+  width: 90%;
+  overflow-y: scroll;
+
+
+
+}
+
+.projet{
+  height: 55%;
+  width : 30%;
+  margin: 20px;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
 }
 
 
-.projet{
-background-color: chartreuse;
-height: 30vh;
-width : 40vh;
-margin: 2vh;
+#tetris{
+  background-image: url("./images/tetris.png");
+  background-size: cover;
+}
 
+
+#tetris:hover{
+  opacity: 50%;
+  font-size: ;
+  
+}
+
+
+
+#client{
+  background-image: url("./images/client.png");
+  background-size: cover;
+}
+
+#pendu{
+  background-image: url("./images/pendu.png");
+  background-size: cover;
+}
+
+#vintage{
+  background-image: url("./images/vintage.png");
+  background-size: cover;
+}
+
+#ollie{
+  background-image: url("./images/ollie.png");
+  background-size: cover;
+}
+
+#cliché{
+  background-image: url("./images/cliche.png");
+  background-size: cover;
+}
+
+#mordor{
+  background-image: url("./images/mordor.png");
+  background-size: cover;
+
+}
+
+#section2{
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height :100vh;
 
 }
 
 #wrapper_about{
-  width: 20vh;
-  background-color: coral;
+  background-color: hotpink;
+  height: 95%;
+  width: 50%;
+  padding: 10px
 }
+
+
+
+
+
 
 .star-wars {
   display: flex;

@@ -9,13 +9,17 @@ import Projets from "./Projets"
 function Main() {
     return (
         <div>
+        <section id="section1">
             <h1>Jonathan Oreja - Web Developer Fullstack</h1>
-      <Techno/>
-      <Projets/>
-      <div>
-      <About/>
-      <Contact/>
-      </div>
+
+            <h2>Mes projets : </h2>
+            <Projets/>
+       </section>
+      <section id="section2" >
+            <Techno/>
+            <About/>
+      </section>
+
         </div>
     )
 }

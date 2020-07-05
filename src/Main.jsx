@@ -13,7 +13,7 @@ function Main() {
             <header>     
                        <h1>Jonathan Oreja - Web Developer Fullstack</h1>
             </header>
-            
+
         <section id="section1">
 
             
@@ -23,6 +23,9 @@ function Main() {
             <Techno />
             <About/>
       </section>
+      <footer>
+          <h5>Jonathan Oreja  ©</h5>
+      </footer>
 
         </div>
     )

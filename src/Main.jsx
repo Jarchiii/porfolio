@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import 'animate.css';
 
 import Techno from "./Techno"
 import About from "./About"
@@ -8,15 +9,18 @@ import Projets from "./Projets"
 
 function Main() {
     return (
-        <div>
+        <div id="main">
+            <header>     
+                       <h1>Jonathan Oreja - Web Developer Fullstack</h1>
+            </header>
+            
         <section id="section1">
-            <h1>Jonathan Oreja - Web Developer Fullstack</h1>
 
-            <h2>Mes projets : </h2>
+            
             <Projets/>
        </section>
       <section id="section2" >
-            <Techno/>
+            <Techno />
             <About/>
       </section>
 

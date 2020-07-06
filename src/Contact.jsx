@@ -12,9 +12,12 @@ function Contact() {
                 <a href="https://www.linkedin.com/in/jonathan-oreja/">
             <img className="logoContact" src="./linkedin.svg"></img>
             </a>
-            <Link to="./cv.pdf">
+            <a href="./cv.pdf">
             <img className="logoContact" src="./cv.svg"></img>
-            </Link>
+            </a>
+            <a href="https://github.com/Jarchiii">
+            <img className="logoContact" src="./git.svg"></img>
+            </a>
             </div>
           
             

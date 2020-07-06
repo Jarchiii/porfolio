@@ -196,6 +196,16 @@ a:hover{
   background-image: none;
   color: white;
 }
+#martine{
+  background-image: url("./images/martine.png");
+  background-size: cover;
+}
+
+#martine:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+}
 
 #mordor{
   background-image: url("./images/mordor.png");
@@ -495,7 +505,7 @@ footer{
     width: 80%;
   }
 }
- 
+/*  
 @media screen and (max-width: 720px) {
 
 #hello{
@@ -511,4 +521,4 @@ footer{
 .projet h2{
   font-size: large;
 }
-} 
+}  */

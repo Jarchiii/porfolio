@@ -475,9 +475,11 @@ footer{
   }
 
   .projet{
-    width: 80%;
+    width:200px;
     height: 150px;
+    margin: 2px;
   }
+  
 
   #section2{
     display: flex;
@@ -493,7 +495,7 @@ footer{
     width: 80%;
   }
 }
-
+ 
 @media screen and (max-width: 720px) {
 
 #hello{
@@ -509,4 +511,4 @@ footer{
 .projet h2{
   font-size: large;
 }
-}
+} 

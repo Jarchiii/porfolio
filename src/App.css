@@ -396,4 +396,52 @@ footer{
 }
 
 
+@media screen and (max-width: 425px) {
 
+  #section0{
+    background-size: 80vh;
+    height:50vh;
+    background-repeat: no-repeat;
+    
+    background-position:center;
+    background-color: 
+  }
+
+  #hello{
+    visibility: hidden;
+  }
+
+  #wrapper_projets{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-y: scroll;
+
+  }
+
+  #section1{
+    height:200vh;
+    margin:10px
+  }
+
+  .projet{
+    width: 80%;
+    height: 150px;
+  }
+
+  #section2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #wrapper_techno{
+    width: 80%;
+    height : 300px
+  }
+
+  #wrapper_about{
+    width: 80%;
+  }
+}

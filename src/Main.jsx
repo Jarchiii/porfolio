@@ -22,10 +22,10 @@ function Main() {
             
             <Link to="#section1">
 
-            <div className="menu">-Mes Projets</div>
+            <div className="menu">- Mes Projets</div>
             </Link>
             <Link to="#section2">
-            <div className="menu">-A propos de moi</div>
+            <div className="menu">- À propos de moi</div>
             </Link>
             </div>
         </section>

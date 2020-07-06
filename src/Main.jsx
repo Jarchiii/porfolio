@@ -16,7 +16,7 @@ function Main() {
             </header>
 
         <section id="section0">
-            <div>
+            <div id="hello">
                 Bonjour, je m'appelle Jonathan Oreja.
             </div>
         </section>

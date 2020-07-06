@@ -2,7 +2,7 @@
 
 
 body{
-  background-color: black;
+
   height: 100%;
   width : 100%;
   font-family: 'Special Elite' , 'sans-serif';
@@ -10,6 +10,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
 
 }
 
@@ -23,12 +24,18 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
  
+}
+
+#titleproject{
+  color:black;
+  text-align: left;
+  width: 80%;
 }
 
 #section1{
   margin-top: 5%;
-  background-color:black;
   color: white;
   display: flex;
   flex-direction: column;
@@ -44,11 +51,10 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: black;
+  background-color: gainsboro;
   height: 70%;
   width: 90%;
   overflow-y: scroll;
-  border: white solid 3px;
   border-radius: 5px;
 
 
@@ -70,20 +76,33 @@ header{
   align-items: center;
   justify-content: center;
   font-size: xx-large;
+  color: transparent;
+  text-align: center;
+  
+}
+
+.projet:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+  
 }
 
 
 #tetris{
   background-image: url("./images/tetris.png");
   background-size: cover;
-}
-
-
-#tetris:hover{
-  opacity: 50%;
-  font-size: ;
   
 }
+
+#tetris:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+
+
+
 
 
 
@@ -92,9 +111,21 @@ header{
   background-size: cover;
 }
 
+#client:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+
 #pendu{
   background-image: url("./images/pendu.png");
   background-size: cover;
+}
+
+#pendu:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
 }
 
 #vintage{
@@ -102,14 +133,32 @@ header{
   background-size: cover;
 }
 
+#vintage:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+
 #ollie{
   background-image: url("./images/ollie.png");
   background-size: cover;
 }
 
+#ollie:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+
 #cliché{
   background-image: url("./images/cliche.png");
   background-size: cover;
+}
+
+#cliché:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
 }
 
 #mordor{
@@ -118,14 +167,20 @@ header{
 
 }
 
+#mordor:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+
 #section2{
-  background-color: white;
+  background-color: gainsboro;
   color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height :100vh;
-  width: 90%;
+  width: 85%;
   height: 25%;
   padding: 3%;
   border : 3px solid white
@@ -162,8 +217,15 @@ header{
   padding:2%
 }
 
+#section3{
+  color:white
+
+}
 footer{
-  color: white;
+  background-color: white;
+  color:black;
+  width: 100%;
+  text-align: center;
 }
 
 

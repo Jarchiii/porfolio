@@ -9,7 +9,7 @@ import OpeningCrawl from './OpeningCrawl';
 class App extends Component {
 
 state = {
-  componentToLoaded : OpeningCrawl,
+  componentToLoaded : Main,
   action:{ launchMain : () => this.launchMain()}
 
 }

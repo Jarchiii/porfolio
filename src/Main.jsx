@@ -16,7 +16,7 @@ function Main() {
             </header>
 
         <section id="section0">
-            <div id="hello">
+            <div className="animate__animated animate__bounceInRight" id="hello">
                 Bonjour, je m'appelle Jonathan Oreja.
             </div>
         </section>
@@ -28,6 +28,7 @@ function Main() {
             <Projets/>
        </section>
       <section id="section2" >
+
             <Techno />
             <About/>
       </section>

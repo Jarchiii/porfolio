@@ -32,6 +32,7 @@ header{
 #titleproject{
   color:black;
   text-align: left;
+  font-size: 2em;
   width: 80%;
 }
 
@@ -196,7 +197,6 @@ header{
   height :100vh;
   width: 100%;
   height: 25%;
-  padding: 3%;
 
 }
 
@@ -213,6 +213,8 @@ header{
   height: 50%;
   width: 50%;
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-family: Barlow;
 
 }
@@ -238,17 +240,21 @@ span{
 }
 
 #wrapper_techno{
+  border-radius: 5px;
+  height: 45vh;
 
-  width: 10%;
+  width: 35%;
   padding:2%;
   background-color: white;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: 20px;
 }
 
 .techno{
   margin: 5%;
+  width: 20%
 }
 
 #node{

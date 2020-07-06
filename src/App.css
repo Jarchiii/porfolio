@@ -37,19 +37,31 @@ header{
 }
 
 #section0{
-  height :100vh;
-  background-image: url("./images/pc.png");
-  background-color: #BE616B;
+  height :80vh;
+  background-image: url("./images/fond.jpg");
   background-position: bottom ;
-  background-repeat: no-repeat;
+
   width: 100%;
   color: white;
+  font-size: 1.6em;
+  text-decoration: none;
+}
+
+
+
+#hello{
+  padding:5%;
   font-size: 3em;
 
 }
+.menu{
+  font-size: 0.5em;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
 
-#hello{
-  padding:5%
+
+
 }
 
 #section1{
@@ -189,7 +201,7 @@ header{
 }
 
 #section2{
-  background-color: #BE616B;
+  background-color: #411086;
   color: black;
   display: flex;
   justify-content: space-around;

@@ -13,7 +13,7 @@ function Main() {
     return (
         <div id="main">
             <header>     
-                       <h1>Mon porfolio</h1>
+                       <h1>Mon portfolio</h1>
             </header>
 
         <section id="section0">

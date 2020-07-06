@@ -6,8 +6,8 @@ function Contact() {
     return (
         <div id="contact">
              <h3> Contact:</h3>
-            <p>Mail : orejajonathan@gmail.com</p>
-            <p>Tel : 06 09 95 80 36</p>
+            <p><span>Mail :</span> orejajonathan@gmail.com</p>
+            <p><span>Tel :</span> 06 09 95 80 36</p>
             <div>
                 <a href="https://www.linkedin.com/in/jonathan-oreja/">
             <img className="logoContact" src="./linkedin.svg"></img>

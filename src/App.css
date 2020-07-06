@@ -269,6 +269,36 @@ span{
   width: 20%
 }
 
+  
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+
+.techno:hover{
+  transform-origin: top center;
+
+  animation-name : swing
+}
+
 #node{
   background-image: url("./images/node.png");
   background-size: contain;
@@ -400,14 +430,19 @@ footer{
 
   #section0{
     background-size: 80vh;
-    height:50vh;
-    background-repeat: no-repeat;
-    
-    background-position:center;
-    background-color: 
+    height:10vh;
+    background-color: #411086;
+    background-image: none;
   }
 
   #hello{
+    padding : 0%;
+    font-size: 1em;
+    text-align: center;
+
+  }
+
+  .menu{
     visibility: hidden;
   }
 
@@ -444,4 +479,21 @@ footer{
   #wrapper_about{
     width: 80%;
   }
+}
+
+@media screen and (max-width: 720px) {
+
+#hello{
+  visibility: hidden;
+}
+
+.projet{
+  width: 30%;
+  height: 150px;
+  margin: 1%;
+}
+
+.projet h2{
+  font-size: large;
+}
 }

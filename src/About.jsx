@@ -3,7 +3,7 @@ import Contact from './Contact'
 
 function About() {
     return (
-        <div id="wrapper_about">
+        <div id="wrapper_about" className="backInRight">
             <h3 id="aboutTitle"> // A propos de moi </h3>
 
             <p id="text">

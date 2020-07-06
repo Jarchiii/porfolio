@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projets() {
     return (
-        <div className="animate__animated animate__bounceInRight" id="wrapper_projets">
+        <div  id="wrapper_projets">
             <div className="animate__animated animate__bounceIn" id="tetris" className="projet">
                 <h2>Tetris</h2>
             </div>

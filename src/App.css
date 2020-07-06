@@ -277,6 +277,11 @@ span{
   width: 20%
 }
 
+.logoContact{
+  margin: 5%;
+  width: 10%
+}
+
   
 @keyframes swing {
   20% {

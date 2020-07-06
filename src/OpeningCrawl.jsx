@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactAudioPlayer from 'react-audio-player';
+
 
 function OpeningCrawl({action}) {
     return (
@@ -6,6 +8,11 @@ function OpeningCrawl({action}) {
             <div>
                 <button onClick={()=>action.launchMain()}>Passer l'introduction</button>
             </div>
+            <ReactAudioPlayer
+                src="sw.ogg"
+                autoPlay={true}
+                controls
+                />
             <section class="star-wars">
 
             <div className="crawl">

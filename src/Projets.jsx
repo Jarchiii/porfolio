@@ -11,6 +11,14 @@ function Projets() {
                 <p>React</p>
                 </a>
             </div>
+            <div className="animate__animated animate__bounceIn" id="weather" className="projet">
+            <a href="https://my-weather-app-with-react.herokuapp.com/">
+                <h2>
+                   Weather App 
+                </h2>
+                <p>React / Open Weather API</p>
+                </a>
+            </div>
             <div className="animate__animated animate__bounceIn" id="client" className="projet">
                 <h2>
                     Listing

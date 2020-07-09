@@ -131,10 +131,22 @@ a:hover{
   
 }
 
+#weather{
+  background-image: url("./images/weather.png");
+  background-size: cover;
+  
+}
+
+#weather:hover{
+  background-color: black;
+  background-image: none;
+  color: white
+}
+
 #tetris:hover{
   background-color: black;
   background-image: none;
-  color: red
+  color: white
 }
 
 
